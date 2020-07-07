@@ -1,0 +1,100 @@
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f4a460;
+  height: 90px;
+}
+
+header h1 {
+  text-align:center;
+  color: white;
+  font-family: serif;
+  font-size: 45px;
+  line-height: 90px;
+}
+
+.top-image {
+  background-image: url(https://publicdomainq.net/images/201803/09s/publicdomainq-0019729sut.jpg);
+  background-size: cover;
+  height: 600px;
+  background-color:rgba(255,255,255,0.1);
+  background-blend-mode:lighten;
+  text-align: center;
+}
+
+.login:hover {
+  opacity: 1;
+}
+
+.login {
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  background-color: #ffd700;
+  padding: 20px 40px;
+  font-size: 30px;
+  margin-top: 300px;
+  border-radius: 5px;
+}
+
+main {
+  background-color: #FAF5ED;
+  padding-top: 80px;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 30px;
+}
+
+.main-image {
+  margin-right: 20px;
+}
+
+main p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.hazama {
+  height: 200px;
+  text-align: center;
+}
+
+.challenge {
+  display: inline-block;
+  background-color: #ffd700;
+  padding: 20px 40px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+  color: white;
+  box-shadow: 0 7px #000000;
+  opacity: 0.7;
+}
+
+.challenge:hover {
+  opacity: 1;
+}
+
+.challenge:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  background-color: #f4a460;
+  height: 70px;
+}
+
+footer h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
